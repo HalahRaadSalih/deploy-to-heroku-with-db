@@ -66,3 +66,12 @@ you 'll get something similar:
 ![screenshot](assets/images/screenshot.png)
 
 see that DATABASE_URL? that's a link to your production environment that was create for by heroku after the previous command. Copy that URL and head to your `knexfile.js`, to production object and paste the url to database connection key.
+
+Make sure you push your changes to your master, then deploy the changes to herou like you did before. Open your heroku app.
+
+- To create run the migrations that you have created, you need to run them for heroku using the command:
+
+	```
+		$ heroku run knex migrate:latest
+		
+	```
