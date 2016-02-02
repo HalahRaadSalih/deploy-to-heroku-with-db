@@ -2,6 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req,res){
-  res.send('Hello from Users test APP');
+  res.render('index', {
+    message:
+    'Hello from Users test APP'
+  });
 });
 module.exports = router;

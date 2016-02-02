@@ -29,7 +29,7 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
+      database: 'postgres://yahktiejncwmul:CdM0n3qqYHyaHakyxtSimwAvxv@ec2-54-225-197-143.compute-1.amazonaws.com:5432/d76d3gjf2uerej',
       user:     'username',
       password: 'password'
     },
