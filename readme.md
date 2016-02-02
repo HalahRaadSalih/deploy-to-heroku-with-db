@@ -7,7 +7,9 @@ If you need a head start when it comes to creating an express app, check [this](
 
  Make sure you're loggedn to your heroku account first. 
  
- 
+[Heroku APP](https://fierce-headland-14595.herokuapp.com) 
+<br>
+
 ### Steps
  
  - Create a heroko app using the following command:
@@ -75,3 +77,5 @@ Make sure you push your changes to your master, then deploy the changes to herou
 		$ heroku run knex migrate:latest
 		
 	```
+	
+- You need to run that command whenever you have some new migration. 	
